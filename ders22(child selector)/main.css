@@ -1,0 +1,24 @@
+div p {
+	color:red;
+	
+}
+/*anasi div olan p ustteki ozelliklere sahip olacak anasi olmayan p alttaki ozelliklere sahip olacak */
+
+p{
+	color:blue;
+	
+	
+	
+}
+.red p {
+	
+	color:magenta;
+	
+}
+
+/* anasi red classinda olan butun pler u ozelliklere sahip olur. Annesi blue idsinde olan p etiketi */
+
+#blue p{
+	
+	color:green;
+}

@@ -1,0 +1,33 @@
+p{
+	font-size:25px;
+	
+	
+}
+
+p:nth-child(3){ /*kacinci cocuk anlamina gelir */
+	
+	color:red;
+	background-color:yellow;
+	
+}
+
+p:nth-child(even){ /*numarasi cift olan paragraf ozelliklerini degistirir */
+	
+	color:red;
+	background-color:yellow;
+	
+}
+
+p:nth-child(odd){ /*numarasi tek olan paragraf ozelliklerini degistirir */
+	
+	color:white;
+	background-color:black;
+	
+}
+
+p:nth-child(4n){ /*4er 4er atlar paragraf ozelliklerini degistirir yani icine formul yazabilirim */
+	
+	color:white;
+	background-color:red;
+	
+}

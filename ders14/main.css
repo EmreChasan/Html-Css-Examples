@@ -1,0 +1,17 @@
+h1{
+	background-color:blue;
+	color:white;
+  /*	padding:40px;  yazim 40 pixel icerden baslar, sol sag ust asagi 40 pixel bosluk birakir */
+	
+	/* padding-top:10px;  ustte 10 pixel bosluk birakir 
+	padding-bottom:10px;  altta 10 pixel bosluk birakir 
+	padding-left:60px;  solda 60 pixel bosluk birakir 
+	padding-right:30px;  sagda 30 pixel bosluk birakir 
+	*/
+	
+	/* usttekileri tek satirda yazma */
+	
+/*	padding:10px 10px 60px 60px; 	/* yukari sag alt sol */
+	
+	padding:10px 40px;  /*ust-alt sag-sol */
+	}

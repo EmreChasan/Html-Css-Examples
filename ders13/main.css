@@ -1,0 +1,13 @@
+p {
+	/* font-family:Tahoma;  /* yazi tipi 
+	font-weight:bold; /*kalin yazi 
+	font-style:italic; /* yazi stili 
+	font-size:10px; /* yazi boyutuu 10 pixel 
+	*/
+	
+	/* yukardakileri tek satirda yazma */
+	
+	font:bold italic 16px Tahoma;
+	
+	
+}

@@ -1,0 +1,16 @@
+a{
+		color:grey;
+}
+
+a:hover{ /* uzerine gittigimiz zaman imlec isaret degistiri(parmak oluyu) */
+	color:red;
+}
+
+a:active{ /*uzerinde basili tutunca kirmizi olur active ozelligi bu */
+	color:blue;
+	
+}
+
+a:visited{ /* sayfaya gittigimizde dondugunde rengi degisir */
+	color:pink;
+}

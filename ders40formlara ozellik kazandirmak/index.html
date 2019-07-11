@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta charset = "utf-8">
+		
+		<title> Ders40 - Formlara ozellik </title>
+		<link rel = "stylesheet" href ="main.css"/>
+	</head>
+
+	<body>
+	
+	<form action="" method = "">
+		
+		<fieldset>
+			<legend> Kisisel Bilgiler</legend>
+			
+			<p>
+				<label for="isim">Isim:</label><input type="text" name="isim" id="isim">
+				
+			</p>
+		
+			<p>
+				<label for="soyisim">SoyIsim:</label><input type="text" name="isim" id="soyisim">
+				
+			</p>
+			<p>
+				<label for="email"> E-mail:</label><input type="text" name="email" id="email">
+				
+			</p>
+			
+			<p>
+				<label for="address"> Adresiniz</label><br/>
+				<textarea name="adres" id="adres" placeholder="Adresiniz..."></textarea>
+				
+			</p>
+			<p>
+			<label for="sehir">Nerede Yasiyorsunuz?</label>
+			<select name="Sehir" id="sehir">
+			
+				<option value="Ankara">Ankara </option>
+				<option value="Selanik">Selanik </option>
+				<option value="Atina">Atina </option>
+				
+			</select>
+			</p>
+			
+			<p>
+				Bildirim almak istiyormusunuz?
+				<label for="Evet">Evet</label><input type = "radio" name="evet" id="Evet">
+				
+				<label for="hayir">Hayir</label><input type = "radio" name="evet" id="hayir"> <!-- nameler ayni olmasi gerekiyor ayni olmazsa ikiside isaretlenir -->
+			
+			
+			</p>
+			
+		
+		
+		</fieldset>
+		
+		<br/>
+		<fieldset>
+		
+				<legend> Hobiler </legend>
+		 
+			<label for="basket">Basketbol Oynamak<input type="checkbox" name="hobiler" value="basket" id="basket"/>
+			<label for="futbol">Futbol Oynamak<input type="checkbox" name="hobiler" value="futbol" id="futbol"/>
+			<label for="voleybol">Voleybol<input type="checkbox" name="hobiler" value="voleybol" id="voleybol"/>
+			
+		</fieldset>
+		<p id="p1">
+		<input type="submit" value="Gonder"/> <input type="reset" value="Sifirla"/>  <br/>  <br/>
+		<p>
+	</form>
+		
+		
+		
+		
+	</body>

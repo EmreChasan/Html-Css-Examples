@@ -1,0 +1,35 @@
+.kose1{
+	
+	/* border-radius:25px 35px 60px 10px;  sol sag salt solalt */
+	
+	border-radius:45px 50px; /*sol ust sag alt*/
+	border-top-left-radius:40px;
+	border-bottom-right-radius:40px;
+	background:#ff6666;
+	padding:20px;
+	width:200px;
+	height:150px;
+	
+}
+
+.kose2{
+	
+	border-radius:40px;
+	border-color:#ff6666;
+	border:solid 10px; /* sinir belirlemek zorunludur */
+	padding:20px;
+	width:200px;
+	height:150px;
+	
+}
+
+.kose3{
+	border-radius:40px;
+	border-color:#ff6666;
+	border:solid 10px; /* sinir belirlemek zorunludur */
+	padding:20px;
+	width:200px;
+	height:150px;
+	background-image:url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg);
+	
+}

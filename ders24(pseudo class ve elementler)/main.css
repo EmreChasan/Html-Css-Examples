@@ -1,0 +1,21 @@
+/* p:first-child{ /*ilk cocugun ozellikleri 
+	color:red;
+	background-color:blue;
+	
+}
+p:last-child{ /* son cocugun ozelliklerini degistirir 
+	color:yellow;
+	background-color:red;
+	
+	
+} */
+
+p:before{ /* p etiketinden hemen onceki kisma ozellikler atar soluna resim atadik */
+	content:url(enes.jpg)
+	
+}
+
+p:after{ /* etiketinden sonraki hemen sagina resim koyar */
+	content:url(enes.jpg)
+	
+}

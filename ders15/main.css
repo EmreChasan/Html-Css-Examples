@@ -1,0 +1,18 @@
+h1{
+	background-color:blue;
+	
+	padding:10px 40px;
+	
+	/* border-style:solid; /*cerceve ve tipi 4 tanedir solid dotted(kesik), dotted(noktali),ridge(gercek gibi),groove(oncekinin benzeri 
+	border-width:10px; /*cercevenin boyutunu belirler 
+	border-color: red; */
+	
+	/* tek satirda 
+	border:8px ridge red;
+	*/
+	
+	border-top:10px dotted red; /* sadece ust tek satirda */
+	border-bottom: 10px groove yellow;
+	border-left:10px groove green;
+	border-right:10px ridge white;
+	}

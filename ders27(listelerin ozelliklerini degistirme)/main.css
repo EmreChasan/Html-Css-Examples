@@ -1,0 +1,48 @@
+/* ul.a{ /class a kullanirsa bu ozellikleri alir 
+	
+	list-style-type:circle;
+	
+}
+
+ul.b{
+	list-style-type:square;
+}
+
+ul.c{
+	
+	list-style-type:upper-roman;
+}
+
+ul.d{
+	
+	list-style-type:lower-greek;
+}
+*/
+
+ul{
+		
+		background:#ff9999;
+		padding:20px;
+}
+
+ol{
+	background:#3399ff;
+	padding:20px;
+	
+	
+}
+ul li{
+	background:#ffe5e5;
+	padding:5px;
+	margin-left;
+	
+}
+
+ol li{
+	background:red;
+	padding:5px;
+	
+}
+
+
+

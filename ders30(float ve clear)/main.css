@@ -1,0 +1,10 @@
+.foto{
+	float:left /* 3 ozellik alir left(resmi sola yaslar yaziyi saga ekler) right num(hic kulanmamak anlamina gelir)*/
+	
+}
+
+.paragraf{
+	
+	clear:left /* 3 ozellik left right both(hem right hem left ozelliklerini iptal et anlamina gelir) left yazarsam float left olan ozelligi siler saymaz */
+	
+}

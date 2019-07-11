@@ -1,0 +1,29 @@
+div {
+	
+	width:300px;
+	height:100px;
+	margin:4px;
+	font-size:30px;
+	padding:20px;
+	
+}
+
+div.gradient1{
+	background:linear-gradient(turquoise,black,yellow,red,white);
+	
+}
+
+div.gradient2{
+	background:-webkit-linear-gradient(left,black,yellow);
+	
+}
+
+div.gradient3{
+	background:-webkit-linear-gradient(right,red,yellow);
+	
+}
+
+div.gradient4{
+	background:-webkit-linear-gradient(top left,red,yellow);
+	
+}

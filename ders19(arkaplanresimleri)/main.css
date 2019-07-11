@@ -1,0 +1,21 @@
+div{
+	height:256px;
+	width:50%; /*sayfanin hepsini kaplasin anlamina gelir */
+	
+}
+
+
+body{
+	
+	
+	background-image:url(a.jpg);
+	background-repeat:no-repeat;
+	/* background-repeat:repeat-x; /*saga dogru tekrarlanir */
+	background-position:center left;
+	background-attachment:fixed; /*resim hareket etmez */
+	background-color:rgb(112,112,19);
+	
+	
+	
+	
+}
